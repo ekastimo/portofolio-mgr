@@ -1,0 +1,78 @@
+
+/* Define colors*/
+.primary{
+    background-color: #02b3e4;
+}
+
+
+.secondary{
+    background-color: #2d3c49;
+}
+
+
+.tertiary{
+    background-color: #7d97ad;
+}
+
+/* Heading styles*/
+.header-logo{
+    width: 50px;
+    height: 50px;
+}
+.header-title{
+    text-align: end;
+    font: 2.0em sans-serif;
+    margin: 0;
+}
+
+.header-sub-title{
+    text-align: end;
+    text-transform: uppercase;
+    font: 1.0em sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-sub-title{
+        text-align: end;
+        text-transform: uppercase;
+        font: 1.5em sans-serif;
+    }
+    .header-title{
+        text-align: end;
+        font: 3.5em sans-serif;
+    }
+    .header-logo{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.header-base{
+    border-bottom: 4px solid #7d97ad;
+}
+
+.nav-item{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+.nav-item-container{
+    margin-top: 10px;
+}
+
+.nav-box{
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+.nav-text{
+    color: gray;
+    font: 1.5em sans-serif;
+}
+
+.main-image{
+    width: 100%;
+}
