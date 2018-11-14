@@ -1,24 +1,25 @@
 
 /* Define colors*/
+
 .primary{
     background-color: #02b3e4;
 }
 
-
 .secondary{
     background-color: #2d3c49;
 }
-
 
 .tertiary{
     background-color: #7d97ad;
 }
 
 /* Heading styles*/
+
 .header-logo{
     width: 50px;
     height: 50px;
 }
+
 .header-title{
     text-align: end;
     font: 2.0em sans-serif;
